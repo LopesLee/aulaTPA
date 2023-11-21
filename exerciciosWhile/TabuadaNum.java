@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tabuadaNum{
+public class abuadaNum{
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
        int n, i=1
