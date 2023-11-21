@@ -1,25 +1,20 @@
 import java.util.Scanner;
 public class maiorMenorI {
-    
-    public static void main(String[] args) {
+ public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
-        int anoA, anoN, idade, i;
-          do{
-              System.out.println("Digite o ano atual:");
-                anoA=ler.nextInt();
-              System.out.println("Digite seu ano de nascimento:");
-                anoN=ler.nextInt();
-              idade=anoA-anoN;
-            
-            if(idade>=18){
-                System.out.println("Você tem "+idade+", maior de idsde.");
-            }else{
-                System.out.println("Você tem "+idade+", menor de idade.");
+        int maiorI=0, menorI=0, i=1;
+
+        while (i<=10) {
+            System.out.print("Digite a idade da pessoa "+i+":");
+          i = ler.nextInt();
+
+            if (i>=18) {
+                maiorI++;
+            } else {
+                menorI++;
             }
-            
-            System.out.println("Continuar a execução, se sim digite 1, senão digite 2");
-            i=ler.nextInt();
-        
-          }while(i==1);
-    }
+        System.out.println("Quantidade de pessoas maiores de idade é "+maiorI+" e de menor é "+menorI);
+        }
+       }
+
 }
