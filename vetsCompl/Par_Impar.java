@@ -6,9 +6,9 @@ public class Par_Impar {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
             final int TAM = 20;
-        				int a[], b[], i;
-        				a = new int [TAM];
-        				b = new int [TAM];
+        	int a[], b[], i;
+			a = new int [TAM];
+            b = new int [TAM];
         
         				
         //laço para leitura do vetor A
