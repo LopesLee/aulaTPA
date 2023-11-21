@@ -5,7 +5,7 @@ public class exercicio4 {
 	public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int cod;
-        System.out.println("Digite o cÛdigo do produto:");
+        System.out.println("Digite o c√≥digo do produto:");
         cod = in.nextInt();
         switch(cod) {
             case 1:
@@ -21,10 +21,10 @@ public class exercicio4 {
                  System.out.println("Misto Quente R$ 11,00");
                  break;
             case 5:
-                 System.out.println("P„o na chapa R$ 6,00");
+                 System.out.println("P√£o na chapa R$ 6,00");
                  break;
             default:
-                 System.out.println("cÛdigo inv·lido");
+                 System.out.println("c√≥digo inv√°lido");
         }
         in.close();
     }
