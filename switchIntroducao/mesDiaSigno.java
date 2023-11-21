@@ -5,121 +5,121 @@ public class exercicio2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int mesNasc, diaNasc;
-        System.out.println("Digite o mês de nascimento:");
+        System.out.println("Digite o mÃªs de nascimento:");
         mesNasc = in.nextInt();
         System.out.println("Digite o dia do nascimento:");
         diaNasc = in.nextInt();
         switch (mesNasc){
             case 1:
             if(diaNasc>=1&&diaNasc<=20){
-                System.out.println("Seu signo é capricornio");
+                System.out.println("Seu signo Ã© capricornio");
             }else if(diaNasc>=20 && diaNasc<=31){
-                System.out.println("Seu signo é aquario");
+                System.out.println("Seu signo Ã© aquario");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 2:
             if(diaNasc>=1 && diaNasc<=19){
-                System.out.println("Seu signo é aquario");
+                System.out.println("Seu signo Ã© aquario");
             }else if(diaNasc>19 && diaNasc<=28){
-                System.out.println("Seu signo é peixes");
+                System.out.println("Seu signo Ã© peixes");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 3:
             if(diaNasc>=1 && diaNasc<=20){
-                System.out.println("Seu signo é peixes");
+                System.out.println("Seu signo Ã© peixes");
             }else if(diaNasc>20 && diaNasc<=31){
-                System.out.println("Seu signo é aries");
+                System.out.println("Seu signo Ã© aries");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 4:
             if(diaNasc>=1 && diaNasc<=20){
-                System.out.println("Seu signo é aries");
+                System.out.println("Seu signo Ã© aries");
             }else if(diaNasc>20 && diaNasc<=30){
-                System.out.println("Seu signo é touro");
+                System.out.println("Seu signo Ã© touro");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 5:
             if(diaNasc>=1 && diaNasc<=20){
-                System.out.println("Seu signo é touro");
+                System.out.println("Seu signo Ã© touro");
             }else if(diaNasc>20 && diaNasc<=31){
-                System.out.println("Seu signo é gêmeos");
+                System.out.println("Seu signo Ã© gÃªmeos");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 6:
             if(diaNasc>=1 && diaNasc<=20){
-                System.out.println("Seu signo é gêmeos");
+                System.out.println("Seu signo Ã© gÃªmeos");
             }else if(diaNasc>20 && diaNasc<=30){
-                System.out.println("Seu signo é câncer");
+                System.out.println("Seu signo Ã© cÃ¢ncer");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 7:
             if(diaNasc>=1 && diaNasc<=21){
-                System.out.println("Seu signo é câncer");
+                System.out.println("Seu signo Ã© cÃ¢ncer");
             }else if(diaNasc>21 && diaNasc<=31){
-                System.out.println("Seu signo é leão");
+                System.out.println("Seu signo Ã© leÃ£o");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 8:
             if(diaNasc>=1 && diaNasc<=22){
-                System.out.println("Seu signo é leão");
+                System.out.println("Seu signo Ã© leÃ£o");
             }else if(diaNasc>22 && diaNasc<=31){
-                System.out.println("Seu signo é virgem");
+                System.out.println("Seu signo Ã© virgem");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 9:
             if(diaNasc>=1 && diaNasc<=22){
-                System.out.println("Seu signo é virgem");
+                System.out.println("Seu signo Ã© virgem");
             }else if(diaNasc>22 && diaNasc<=30){
-                System.out.println("Seu signo é libra");
+                System.out.println("Seu signo Ã© libra");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 10:
             if(diaNasc>=1 && diaNasc<=22){
-                System.out.println("Seu signo é libra");
+                System.out.println("Seu signo Ã© libra");
             }else if(diaNasc>22 && diaNasc<=31){
-                System.out.println("Seu signo é escorpião");
+                System.out.println("Seu signo Ã© escorpiÃ£o");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 11:
             if(diaNasc>=1 && diaNasc<=21){
-                System.out.println("Seu signo é escorpião");
+                System.out.println("Seu signo Ã© escorpiÃ£o");
             }else if(diaNasc>21 && diaNasc<=30){
-                System.out.println("Seu signo é sagitário");
+                System.out.println("Seu signo Ã© sagitÃ¡rio");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             case 12:
             if(diaNasc>=1 && diaNasc<=21){
-                System.out.println("Seu signo é sagitário");
+                System.out.println("Seu signo Ã© sagitÃ¡rio");
             }else if(diaNasc>21 && diaNasc<=31){
-                System.out.println("Seu signo é capricornio");
+                System.out.println("Seu signo Ã© capricornio");
             }else{
                 System.out.println("Dia invalido");
             }
             break;
             default:
-                System.out.println("Mês inválido");
+                System.out.println("MÃªs invÃ¡lido");
         }
         
         in.close();
