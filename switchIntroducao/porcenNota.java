@@ -1,6 +1,6 @@
 package listaExercicios;
 import java.util.Scanner;
-public class exercicio3 {
+public class procenNota {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
