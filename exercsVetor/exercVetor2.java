@@ -7,7 +7,7 @@ public class exercVetor2{
         final int TAM=10; 
         int a[],b[],c[],i;
         a = new int[TAM];
-        b= new int[TAM];
+        b = new int[TAM];
         c = new int[TAM];
 
 
