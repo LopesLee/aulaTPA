@@ -1,4 +1,4 @@
-public class somatoriaCem{
+public class omatoriaCem{
     public static void main(String[] args){
         int soma=0, i=1;
 
