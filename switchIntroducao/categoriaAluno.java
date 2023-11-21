@@ -1,6 +1,6 @@
 package listaExercicios;
 import java.util.Scanner;
-public class exercicio1 {
+public class categoriaAluno {
 	public static void main(String[] args) {
 		int a;
 		
