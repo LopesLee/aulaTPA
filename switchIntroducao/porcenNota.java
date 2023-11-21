@@ -15,7 +15,7 @@ public class exercicio3 {
 		System.out.println("Informe a quantidade de alunos com I:     ");
 		i = in.nextInt();
 		qa = mb + b + r + i;
-		System.out.println("A quantidade de alunos s„o: "+qa);
+		System.out.println("A quantidade de alunos s√£o: "+qa);
 		System.out.println("Informe a nota que deseja saber a porcentagem de alunos correspondente a ela:   ");
 		p = in.next();
 		switch(p) {
@@ -24,25 +24,25 @@ public class exercicio3 {
 		case "mB":
 		case "mb":
 			mb = (mb*100)/qa;
-			System.out.println("A porcentagem de alunos com MB È: "+mb+"%");
+			System.out.println("A porcentagem de alunos com MB √©: "+mb+"%");
 		break;
 		case "b":
 		case "B":
 			b = (b*100)/qa;
-			System.out.println("A porcentagem de alunos com B È: "+b+"%");
+			System.out.println("A porcentagem de alunos com B √©: "+b+"%");
 		break;
 		case "r":
 		case "R":
 			r = (r*100)/qa;
-			System.out.println("A porcentagem de alunos com R È: "+r+"%");
+			System.out.println("A porcentagem de alunos com R √©: "+r+"%");
 		break;
 		case "i":
 		case "I":
 			i = (i*100)/qa;
-			System.out.println("A porcentagem de alunos com I È: "+i+"%");
+			System.out.println("A porcentagem de alunos com I √©: "+i+"%");
 		break;
 		default:
-			System.out.println("Inv·lido");
+			System.out.println("Inv√°lido");
 			}
 		 in.close();
 	}
