@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class maiorMenorI {
+public class aiorMenorI {
  public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
         int maiorI=0, menorI=0, i=1;
