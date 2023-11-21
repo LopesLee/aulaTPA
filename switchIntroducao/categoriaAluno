@@ -14,13 +14,13 @@ public class exercicio1 {
 				System.out.println("Aluno categoria dente de leite.");
 				break;
 			case 7:
-				System.out.println("Aluno categoria júnior.");
+				System.out.println("Aluno categoria jÃºnior.");
 				break;
 			case 8:
-				System.out.println("Aluno categoria júnior max.");
+				System.out.println("Aluno categoria jÃºnior max.");
 				break;
 			case 9:
-				System.out.println("Aluno categoria júnior master.");
+				System.out.println("Aluno categoria jÃºnior master.");
 				break;
 			case 10:
 				System.out.println("Aluno categoria master.");
