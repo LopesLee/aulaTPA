@@ -1,4 +1,4 @@
-public class InterseçãoVet {
+public class IntersecçãoVet {
 	public static void main(String[] args) {
         int TAM = 10;
         int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
