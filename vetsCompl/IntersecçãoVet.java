@@ -1,6 +1,4 @@
-package exs15;
-
-public class V_interseção {
+public class InterseÃ§Ã£oVet {
 	public static void main(String[] args) {
         int TAM = 10;
         int[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -17,7 +15,7 @@ public class V_interseção {
                 }
             }
         }
-        System.out.println("Vetor C (Interseção):");
+        System.out.println("Vetor C (InterseÃ§Ã£o):");
         for (int i = 0; i < tC; i++) {
             System.out.println("C[" + i + "] = " + C[i]);
         }
