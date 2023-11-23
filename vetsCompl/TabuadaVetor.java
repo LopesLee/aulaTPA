@@ -1,4 +1,4 @@
-package exs15;
+package listaComplementar;
 
 public class TabuadaVetor {
 	public static void main(String[] args) {
@@ -18,10 +18,10 @@ public class TabuadaVetor {
 		        for(m=1; m<=10; m++){
 		        System.out.println(+a[i]+" x " +m+ "=" +(t=m*a[i]));
 		        
-		        }
-		       }
-		    }
+	        }
+	       }
+	    }
 }
 
-	}
+	
 
